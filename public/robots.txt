@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/sitemap.xml

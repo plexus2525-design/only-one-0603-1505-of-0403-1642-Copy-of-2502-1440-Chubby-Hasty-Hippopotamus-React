@@ -1,0 +1,150 @@
+.strategic-corridors-container10 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.strategic-corridors-container11 {
+  display: none;
+}
+ 
+.strategic-corridors-container12 {
+  display: contents;
+}
+ 
+.strategic-corridors-text10 {
+  display: inline-block;
+}
+ 
+.strategic-corridors-text11 {
+  display: inline-block;
+}
+ 
+.strategic-corridors-icon106 {
+  stop-color: #1e3a5f;
+  stop-opacity: 0.3;
+}
+ 
+.strategic-corridors-icon107 {
+  stop-color: #066e87;
+  stop-opacity: 0.1;
+}
+ 
+.strategic-corridors-thq-legend-dot-elm1 {
+  background: var(--color-accent);
+}
+ 
+.strategic-corridors-thq-legend-dot-elm2 {
+  background: #066e87;
+}
+ 
+.strategic-corridors-container13 {
+  display: none;
+}
+ 
+.strategic-corridors-container14 {
+  display: contents;
+}
+ 
+.strategic-corridors-container15 {
+  display: none;
+}
+ 
+.strategic-corridors-container16 {
+  display: contents;
+}
+ 
+.strategic-corridors-container17 {
+  display: none;
+}
+ 
+.strategic-corridors-container18 {
+  display: contents;
+}
+ 
+.strategic-corridors-thq-cis-heading-accent-elm {
+  display: block;
+  background: linear-gradient(135deg, var(--color-accent), var(--color-secondary));
+  margin-top: var(--spacing-xs);
+  font-weight: 700;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ 
+.strategic-corridors-thq-closing-cta-button-elm {
+  text-align: center;
+  text-decoration: none;
+}
+ 
+.strategic-corridors-thq-closing-cta-text-elm {
+  z-index: 2;
+  position: relative;
+  transition: color 0.3s ease;
+}
+ 
+.strategic-corridors-thq-closing-cta-icon-elm {
+  display: flex;
+  z-index: 2;
+  position: relative;
+  transform: rotate(90deg);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  align-items: center;
+  justify-content: center;
+}
+ 
+.strategic-corridors-container19 {
+  display: none;
+}
+ 
+.strategic-corridors-container20 {
+  display: contents;
+}
+ 
+.strategic-corridors-container21 {
+  display: none;
+}
+ 
+.strategic-corridors-container22 {
+  display: contents;
+}
+ 
+.strategic-corridors-container23 {
+  display: none;
+}
+ 
+.strategic-corridors-container24 {
+  display: contents;
+}
+ 
+.strategic-corridors-container25 {
+  display: none;
+}
+ 
+.strategic-corridors-container26 {
+  display: contents;
+}
+ 
+.strategic-corridors-container27 {
+  display: none;
+}
+ 
+.strategic-corridors-container28 {
+  display: contents;
+}
+ 
+.strategic-corridors-text72 {
+  display: inline-block;
+}
+ 
+.strategic-corridors-text73 {
+  display: inline-block;
+}
+ 
+.strategic-corridors-text74 {
+  display: inline-block;
+}
+ 
+.strategic-corridors-text75 {
+  display: inline-block;
+}
