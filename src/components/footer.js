@@ -34,7 +34,7 @@ const Footer = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <span className="footer-brand-name">Waterside House</span>
+                <span className="footer-brand-name">Green Hills Limited</span>
               </div>
               <p className="section-content footer-description">
                 Your Integrated Trade &amp; Logistics Partner. Delivering
@@ -47,35 +47,38 @@ const Footer = (props) => {
               <h3 className="section-subtitle footer-heading">Company</h3>
               <nav className="footer-nav">
                 <ul className="footer-list">
-                  <Link to="/">
+                  <Link to="/" className="footer-navlink10">
                     <li className="footer-thq-footer-list-item-elm10 footer-list-item">
                       <div className="footer-link">
                         <span>Home</span>
                       </div>
                     </li>
                   </Link>
-                  <Link to="/services">
+                  <Link to="/services" className="footer-navlink11">
                     <li className="footer-thq-footer-list-item-elm11 footer-list-item">
                       <div className="footer-link">
                         <span>Our Services</span>
                       </div>
                     </li>
                   </Link>
-                  <Link to="/why-waterside">
+                  <Link to="/why-waterside" className="footer-navlink12">
                     <li className="footer-thq-footer-list-item-elm12 footer-list-item">
                       <div className="footer-link">
-                        <span>Why Waterside</span>
+                        <span>Why Green Hills</span>
                       </div>
                     </li>
                   </Link>
-                  <Link to="/strategic-corridors">
+                  <Link to="/strategic-corridors" className="footer-navlink13">
                     <li className="footer-thq-footer-list-item-elm13 footer-list-item">
                       <div className="footer-link">
                         <span>Strategic Corridors</span>
                       </div>
                     </li>
                   </Link>
-                  <Link to="/your-global-representative">
+                  <Link
+                    to="/your-global-representative"
+                    className="footer-navlink14"
+                  >
                     <li className="footer-thq-footer-list-item-elm14 footer-list-item">
                       <div className="footer-link">
                         <span>Your Global Representative</span>
@@ -89,35 +92,38 @@ const Footer = (props) => {
               <h3 className="section-subtitle footer-heading">Solutions</h3>
               <nav className="footer-nav">
                 <ul className="footer-list">
-                  <Link to="/services">
+                  <Link to="/services" className="footer-navlink15">
                     <li className="footer-thq-footer-list-item-elm15 footer-list-item">
                       <div className="footer-link">
                         <span>Customs Compliance</span>
                       </div>
                     </li>
                   </Link>
-                  <Link to="/services">
+                  <Link to="/services" className="footer-navlink16">
                     <li className="footer-thq-footer-list-item-elm16 footer-list-item">
                       <div className="footer-link">
                         <span>Freight Forwarding</span>
                       </div>
                     </li>
                   </Link>
-                  <Link to="/strategic-corridors">
+                  <Link to="/strategic-corridors" className="footer-navlink17">
                     <li className="footer-thq-footer-list-item-elm17 footer-list-item">
                       <div className="footer-link">
                         <span>International Trade Desk</span>
                       </div>
                     </li>
                   </Link>
-                  <Link to="/why-waterside">
+                  <Link to="/why-waterside" className="footer-navlink18">
                     <li className="footer-thq-footer-list-item-elm18 footer-list-item">
                       <div className="footer-link">
                         <span>Supply Chain Management</span>
                       </div>
                     </li>
                   </Link>
-                  <Link to="/your-global-representative">
+                  <Link
+                    to="/your-global-representative"
+                    className="footer-navlink19"
+                  >
                     <li className="footer-thq-footer-list-item-elm19 footer-list-item">
                       <div className="footer-link">
                         <span>Partner Sourcing</span>
@@ -151,13 +157,7 @@ const Footer = (props) => {
                     </svg>
                   </div>
                   <span className="section-content footer-contact-text">
-                    Suite 508, Marina Towers Newtown Barracks, Belize City
-                    Belize, Central America
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
+                    123 Barrack Road, Belize City, Belize, C. A.
                   </span>
                 </div>
                 <div className="footer-contact-item">
@@ -171,24 +171,24 @@ const Footer = (props) => {
           </div>
           <div className="footer-bottom">
             <div className="footer-legal-links">
-              <a href="#">
+              <a href="#" className="footer-link1">
                 <div className="footer-legal-link">
                   <span>Privacy Policy</span>
                 </div>
               </a>
-              <a href="#">
+              <a href="#" className="footer-link2">
                 <div className="footer-legal-link">
                   <span>Terms of Service</span>
                 </div>
               </a>
-              <a href="#">
+              <a href="#" className="footer-link3">
                 <div className="footer-legal-link">
                   <span>Compliance</span>
                 </div>
               </a>
             </div>
             <p className="footer-copyright section-content">
-              &amp;copy; 2026 Waterside House Corporation. All rights reserved.
+              &amp;copy; 2026 Green Hills Limited. All rights reserved.
               Professional Trade &amp; Logistics Integrated.
             </p>
           </div>

@@ -22,13 +22,32 @@ const Home = (props) => {
           property="og:title"
           content="only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus"
         />
+        <meta property="og:type" content="website" />
+        <meta
+          name="twitter:title"
+          content="only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus"
+        />
         <link
           rel="canonical"
-          href="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/"
+          href="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/"
         />
         <meta
           property="og:url"
-          content="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/"
+          content="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html:
+              '{"@context":"https://schema.org","@type":"Organization","name":"only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus","url":"https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app"}',
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html:
+              '{"@context":"https://schema.org","@type":"WebSite","name":"only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus","url":"https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app"}',
+          }}
         />
       </Helmet>
       <Navigation
@@ -47,10 +66,10 @@ const Home = (props) => {
         <div className="hero-proposition-media">
           <video
             src="https://videos.pexels.com/video-files/8344448/8344448-hd_1280_720_60fps.mp4"
-            loop="true"
-            muted="true"
+            loop
+            muted
             autoPlay="true"
-            playsInline="true"
+            playsInline
             className="hero-proposition-video"
           ></video>
           <div className="home-hero-proposition-overlay"></div>
@@ -59,18 +78,18 @@ const Home = (props) => {
           <div className="home-hero-proposition-content">
             <h1 className="hero-title">End-to-End Global Trade Solutions</h1>
             <p className="hero-subtitle">
-              Waterside House Corporation delivers seamless customs clearance,
-              freight forwarding, and trade consulting. Leverage our 15+ years
-              of expertise to simplify your supply chain from source to
+              Green Hills Limited delivers seamless customs clearance, freight
+              forwarding, and trade consulting. Leverage our 15+ years of
+              expertise to simplify your supply chain from source to
               destination.
             </p>
             <div className="home-hero-proposition-actions">
-              <a href="#LogisticsServicesSection">
+              <a href="#LogisticsServicesSection" className="home-link1">
                 <div className="home-thq-btn-elm1 btn-primary btn-lg btn">
                   <span>Core Logistics &amp; Trade Services</span>
                 </div>
               </a>
-              <a href="#CorridorsHighlight">
+              <a href="#CorridorsHighlight" className="home-link2">
                 <div className="home-thq-btn-elm2 btn-outline btn-lg btn">
                   <span>Global Trade Corridors</span>
                 </div>
@@ -238,8 +257,8 @@ const Home = (props) => {
           <div className="why-waterside-container">
             <div className="why-waterside-header">
               <h2 className="section-title">
-                The Waterside House Corporation Difference: Your Integrated
-                Trade &amp; Logistics Partner
+                The Green Hills Limited Difference: Your Integrated Trade &amp;
+                Logistics Partner
               </h2>
               <p className="section-subtitle">
                 We unite strategic trade advisory with flawless operational

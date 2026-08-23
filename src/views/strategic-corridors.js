@@ -20,13 +20,25 @@ const StrategicCorridors = (props) => {
           property="og:title"
           content="Strategic-Corridors - only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus"
         />
+        <meta property="og:type" content="website" />
+        <meta
+          name="twitter:title"
+          content="Strategic-Corridors - only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus"
+        />
         <link
           rel="canonical"
-          href="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/strategic-corridors"
+          href="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/strategic-corridors"
         />
         <meta
           property="og:url"
-          content="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/strategic-corridors"
+          content="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/strategic-corridors"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html:
+              '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app"},{"@type":"ListItem","position":2,"name":"Strategic-Corridors","item":"https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/strategic-corridors"}]}',
+          }}
         />
       </Helmet>
       <div className="strategic-corridors-container11">

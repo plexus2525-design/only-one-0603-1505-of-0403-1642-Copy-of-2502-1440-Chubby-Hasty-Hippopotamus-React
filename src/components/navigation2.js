@@ -11,7 +11,7 @@ const Navigation2 = (props) => {
     <div className="navigation2-container1">
       <nav id="main-navigation" className="navigation-wrapper">
         <div className="navigation-container">
-          <a href="/">
+          <a href="/" className="navigation2-link1">
             <div
               aria-label="Waterside House Corporation Home"
               className="navigation-logo-link"
@@ -295,7 +295,7 @@ const Navigation2 = (props) => {
             </li>
           </ul>
           <div className="navigation-mobile-footer">
-            <a href="/contact">
+            <a href="/contact" className="navigation2-link8">
               <div className="btn-primary btn-lg btn">
                 <span>Get Your Personalized Solution</span>
               </div>

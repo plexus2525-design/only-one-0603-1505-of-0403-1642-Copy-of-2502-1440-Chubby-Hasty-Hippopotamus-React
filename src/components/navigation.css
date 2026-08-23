@@ -2,6 +2,10 @@
   display: contents;
 }
  
+.navigation-link1 {
+  display: contents;
+}
+ 
 .navigation-text10 {
   display: inline-block;
 }
@@ -45,6 +49,10 @@
   justify-content: center;
 }
  
+.navigation-link8 {
+  display: contents;
+}
+ 
 .navigation-container2 {
   display: none;
 }
@@ -61,11 +69,11 @@
   display: none;
 }
  
-.navigation-text27 {
+.navigation-text26 {
   display: inline-block;
 }
  
-.navigation-text28 {
+.navigation-text27 {
   display: inline-block;
 }
  

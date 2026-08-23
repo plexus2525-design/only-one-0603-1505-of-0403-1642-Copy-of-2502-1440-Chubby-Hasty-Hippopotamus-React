@@ -2,6 +2,10 @@
   display: contents;
 }
  
+.navigation4-link1 {
+  display: contents;
+}
+ 
 .navigation4-text10 {
   display: inline-block;
 }
@@ -42,6 +46,10 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
+}
+ 
+.navigation4-link8 {
+  display: contents;
 }
  
 .navigation4-container2 {

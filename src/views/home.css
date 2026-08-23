@@ -12,8 +12,16 @@
   display: inline-block;
 }
  
+.home-link1 {
+  display: contents;
+}
+ 
 .home-thq-btn-elm1 {
   text-decoration: none;
+}
+ 
+.home-link2 {
+  display: contents;
 }
  
 .home-thq-btn-elm2 {

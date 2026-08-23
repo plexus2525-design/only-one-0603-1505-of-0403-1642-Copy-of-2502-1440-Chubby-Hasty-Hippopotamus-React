@@ -69,7 +69,7 @@ const CtaModal = (props) => {
               type="text"
               id="fullName"
               name="fullName"
-              required="true"
+              required
               placeholder={props.formInputPlaceholder}
               data-form-field-id="fullName"
               className="form-input"
@@ -87,7 +87,7 @@ const CtaModal = (props) => {
               type="email"
               id="emailAddress"
               name="emailAddress"
-              required="true"
+              required
               placeholder={props.formInputPlaceholder1}
               data-form-field-id="emailAddress"
               className="form-input"
@@ -104,7 +104,7 @@ const CtaModal = (props) => {
             <select
               id="serviceType"
               name="serviceType"
-              required="true"
+              required
               data-form-field-id="serviceType"
               className="form-input"
             >

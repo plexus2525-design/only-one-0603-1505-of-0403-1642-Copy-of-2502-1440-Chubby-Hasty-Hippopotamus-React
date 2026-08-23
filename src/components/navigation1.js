@@ -10,7 +10,7 @@ const Navigation1 = (props) => {
     <div className="navigation1-container1">
       <nav id="main-navigation" className="navigation-wrapper">
         <div className="navigation-container">
-          <a href="/">
+          <a href="/" className="navigation1-link10">
             <div
               aria-label="Waterside House Corporation Home"
               className="navigation-logo-link"
@@ -69,7 +69,7 @@ const Navigation1 = (props) => {
               </li>
             </ul>
             <div className="navigation-actions">
-              <a href="/contact">
+              <a href="/contact" className="navigation1-link14">
                 <div className="btn-primary btn btn-sm">
                   <span>Get Solution</span>
                   <svg
@@ -253,7 +253,7 @@ const Navigation1 = (props) => {
             </li>
           </ul>
           <div className="navigation-mobile-footer">
-            <a href="/contact">
+            <a href="/contact" className="navigation1-link19">
               <div className="btn-primary btn-lg btn">
                 <span>Get Your Personalized Solution</span>
               </div>

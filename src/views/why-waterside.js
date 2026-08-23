@@ -21,13 +21,25 @@ const WhyWaterside = (props) => {
           property="og:title"
           content="Why-Waterside - only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus"
         />
+        <meta property="og:type" content="website" />
+        <meta
+          name="twitter:title"
+          content="Why-Waterside - only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus"
+        />
         <link
           rel="canonical"
-          href="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/why-waterside"
+          href="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/why-waterside"
         />
         <meta
           property="og:url"
-          content="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/why-waterside"
+          content="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/why-waterside"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html:
+              '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app"},{"@type":"ListItem","position":2,"name":"Why-Waterside","item":"https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/why-waterside"}]}',
+          }}
         />
       </Helmet>
       <Navigation
@@ -60,10 +72,10 @@ const WhyWaterside = (props) => {
               Beyond Logistics: Strategic Global Partnership
             </h1>
             <p className="hero-subtitle">
-              Waterside House Corporation bridges the gap between your business
-              goals and global market reality. We provide the strategic
-              representation to open doors and the operational excellence to
-              ensure everything flows seamlessly through them.
+              Green Hills Limited bridges the gap between your business goals
+              and global market reality. We provide the strategic representation
+              to open doors and the operational excellence to ensure everything
+              flows seamlessly through them.
             </p>
             <div className="hero-proposition-pillars">
               <div className="hero-pillar-item">
@@ -82,7 +94,7 @@ const WhyWaterside = (props) => {
               <button id="heroOpenModal" className="btn-primary btn-lg btn">
                 Get Your Personalized Solution
               </button>
-              <a href="#differentiators">
+              <a href="#differentiators" className="why-waterside-link">
                 <div className="btn-outline btn-lg btn">
                   <span>Explore Differentiators</span>
                 </div>
@@ -94,7 +106,7 @@ const WhyWaterside = (props) => {
       <section id="differentiators" className="diff-pillars">
         <div className="diff-pillars-container">
           <div className="diff-header">
-            <h2 className="section-title">The Waterside Advantage</h2>
+            <h2 className="section-title">The Green Hills Advantage</h2>
             <p className="section-subtitle">
               We unite strategic trade advisory with flawless operational
               execution.

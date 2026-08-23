@@ -35,7 +35,10 @@ const CorridorsHighlight = (props) => {
                 </Fragment>
               )}
             </p>
-            <Link to="/strategic-corridors">
+            <Link
+              to="/strategic-corridors"
+              className="corridors-highlight-navlink"
+            >
               <div className="corridors-highlight-thq-btn-elm btn-primary btn">
                 <span>
                   {props.text ?? (
@@ -146,7 +149,7 @@ const CorridorsHighlight = (props) => {
         sectionTitle1={
           <Fragment>
             <span className="corridors-highlight-text15">
-              The Waterside House Corporation Advantage: Your End-to-End Process
+              The Green Hills Limited Advantage: Your End-to-End Process
             </span>
           </Fragment>
         }

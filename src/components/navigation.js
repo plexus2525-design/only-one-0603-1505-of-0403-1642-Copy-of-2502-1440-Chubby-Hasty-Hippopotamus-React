@@ -12,7 +12,7 @@ const Navigation = (props) => {
     <div className={`navigation-container1 ${props.rootClassName} `}>
       <nav id="main-navigation" className="navigation-wrapper">
         <div className="navigation-container">
-          <a href="/">
+          <a href="/" className="navigation-link1">
             <div
               aria-label="Waterside House Corporation Home"
               className="navigation-logo-link"
@@ -37,7 +37,9 @@ const Navigation = (props) => {
                     </g>
                   </svg>
                 </div>
-                <span className="navigation-brand-name">Waterside House</span>
+                <span className="navigation-brand-name">
+                  Green Hills Limited
+                </span>
               </div>
             </div>
           </a>
@@ -96,7 +98,7 @@ const Navigation = (props) => {
               <li className="navigation-link-item">
                 <a href="/why-waterside">
                   <div className="navigation-link">
-                    <span>Why Waterside</span>
+                    <span>Why Green Hills</span>
                   </div>
                 </a>
               </li>
@@ -214,7 +216,7 @@ const Navigation = (props) => {
             <li className="navigation-mobile-item">
               <a href="/why-waterside">
                 <div className="navigation-mobile-link">
-                  <span>Why Waterside</span>
+                  <span>Why Green Hills</span>
                   <svg
                     width="20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -279,7 +281,7 @@ const Navigation = (props) => {
             </li>
           </ul>
           <div className="navigation-mobile-footer">
-            <a href="/contact">
+            <a href="/contact" className="navigation-link8">
               <div className="btn-primary btn-lg btn navigation-thq-btn-elm">
                 <span>Get Your Personalized Solution</span>
               </div>
@@ -343,7 +345,7 @@ const Navigation = (props) => {
         <span>
           {props.button ?? (
             <Fragment>
-              <span className="navigation-text28">Button</span>
+              <span className="navigation-text27">Button</span>
             </Fragment>
           )}
         </span>
@@ -352,7 +354,7 @@ const Navigation = (props) => {
         <span>
           {props.button1 ?? (
             <Fragment>
-              <span className="navigation-text27">Button</span>
+              <span className="navigation-text26">Button</span>
             </Fragment>
           )}
         </span>

@@ -21,13 +21,25 @@ const YourGlobalRepresentative = (props) => {
           property="og:title"
           content="Your-Global-Representative - only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus"
         />
+        <meta property="og:type" content="website" />
+        <meta
+          name="twitter:title"
+          content="Your-Global-Representative - only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus"
+        />
         <link
           rel="canonical"
-          href="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/your-global-representative"
+          href="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/your-global-representative"
         />
         <meta
           property="og:url"
-          content="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/your-global-representative"
+          content="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/your-global-representative"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html:
+              '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app"},{"@type":"ListItem","position":2,"name":"Your-Global-Representative","item":"https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/your-global-representative"}]}',
+          }}
         />
       </Helmet>
       <Navigation
@@ -90,12 +102,18 @@ const YourGlobalRepresentative = (props) => {
                 home.
               </p>
               <div className="your-global-representative-hero-cta-group3 hero-cta-group">
-                <a href="#ContactCta">
+                <a
+                  href="#ContactCta"
+                  className="your-global-representative-link"
+                >
                   <div className="your-global-representative-thq-btn-primary-custom-elm btn-primary-custom">
                     <span>Partner With Us</span>
                   </div>
                 </a>
-                <Link to="/services">
+                <Link
+                  to="/services"
+                  className="your-global-representative-navlink"
+                >
                   <div className="your-global-representative-thq-btn-outline-custom-elm btn-outline-custom">
                     <span>Explore Services</span>
                   </div>
@@ -498,10 +516,10 @@ box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);}}@keyframes float {0%,100% {transform:
           <div className="negotiation-bg-wrapper">
             <video
               src="https://videos.pexels.com/video-files/3129785/3129785-hd_1920_1080_25fps.mp4"
-              loop="true"
-              muted="true"
+              loop
+              muted
               autoPlay="true"
-              playsInline="true"
+              playsInline
               className="negotiation-video"
             ></video>
             <div className="negotiation-overlay"></div>
@@ -1095,10 +1113,10 @@ opacity: 0;}}
           <div className="advantage-video-container">
             <video
               src="https://videos.pexels.com/video-files/15547447/15547447-hd_1920_1080_24fps.mp4"
-              loop="true"
-              muted="true"
+              loop
+              muted
               autoPlay="true"
-              playsInline="true"
+              playsInline
               className="advantage-video"
             ></video>
             <div className="advantage-overlay"></div>
@@ -1138,8 +1156,8 @@ opacity: 0;}}
               </h2>
               <p className="advantage-subheadline">
                 No more juggling translators, agents, forwarders, and
-                inspectors. Waterside is your single, integrated team for trade
-                representation, logistics, and documentation.
+                inspectors. Green Hills is your single, integrated team for
+                trade representation, logistics, and documentation.
               </p>
             </div>
             <div className="advantage-grid">
