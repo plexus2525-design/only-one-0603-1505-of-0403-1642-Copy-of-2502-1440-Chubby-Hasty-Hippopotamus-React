@@ -86,7 +86,7 @@ const RepresentationSection = (props) => {
               )}
             </p>
             <div className="your-global-representative-hero-cta-group3 hero-cta-group">
-              <a href="#contact" className="representation-section-link">
+              <a href="#contact">
                 <div className="btn-primary-custom">
                   <span>
                     {props.text ?? (
@@ -99,7 +99,7 @@ const RepresentationSection = (props) => {
                   </span>
                 </div>
               </a>
-              <Link to="/services" className="representation-section-navlink">
+              <Link to="/services">
                 <div className="representation-section-thq-btn-outline-custom-elm btn-outline-custom">
                   <span>
                     {props.text1 ?? (
@@ -675,10 +675,10 @@ box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);}}@keyframes float {0%,100% {transform:
         <div className="negotiation-bg-wrapper">
           <video
             src={props.negotiationVideoSrc}
-            loop
-            muted
+            loop="true"
+            muted="true"
             autoPlay="true"
-            playsInline
+            playsInline="true"
             className="negotiation-video"
           ></video>
           <div className="negotiation-overlay"></div>
@@ -1531,10 +1531,10 @@ opacity: 0;}}
         <div className="advantage-video-container">
           <video
             src={props.advantageVideoSrc}
-            loop
-            muted
+            loop="true"
+            muted="true"
             autoPlay="true"
-            playsInline
+            playsInline="true"
             className="advantage-video"
           ></video>
           <div className="advantage-overlay"></div>

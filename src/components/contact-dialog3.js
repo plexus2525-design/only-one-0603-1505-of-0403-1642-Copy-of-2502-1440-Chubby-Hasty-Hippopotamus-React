@@ -70,7 +70,7 @@ const ContactDialog3 = (props) => {
               type="text"
               id="name"
               name="true"
-              required
+              required="true"
               placeholder={props.textinputPlaceholder}
               data-form-field-id="name"
             />
@@ -87,7 +87,7 @@ const ContactDialog3 = (props) => {
               type="email"
               id="email"
               name="email"
-              required
+              required="true"
               placeholder={props.textinputPlaceholder1}
               data-form-field-id="email"
             />
@@ -105,7 +105,7 @@ const ContactDialog3 = (props) => {
             <select
               id="service"
               name="service"
-              required
+              required="true"
               data-form-field-id="service"
             >
               <option value="true">Select a service...</option>
@@ -127,8 +127,8 @@ const ContactDialog3 = (props) => {
             <textarea
               id="message"
               name="message"
-              required
-              minLength="10"
+              required="true"
+              minlength="10"
               placeholder={props.textareaPlaceholder}
               data-form-field-id="message"
             ></textarea>

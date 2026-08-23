@@ -20,25 +20,13 @@ const Services = (props) => {
           property="og:title"
           content="Services - only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus"
         />
-        <meta property="og:type" content="website" />
-        <meta
-          name="twitter:title"
-          content="Services - only one 0603 1505 of 04.03 16:42 Copy of 25.02 14:40 Chubby Hasty Hippopotamus"
-        />
         <link
           rel="canonical"
-          href="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/services"
+          href="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/services"
         />
         <meta
           property="og:url"
-          content="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/services"
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html:
-              '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app"},{"@type":"ListItem","position":2,"name":"Services","item":"https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.app/services"}]}',
-          }}
+          content="https://copy-of-copy-of-0403-1642-copy-of-2502-1440-chubby-h-d8xxy3.teleporthq.site/services"
         />
       </Helmet>
       <Navigation
@@ -57,10 +45,10 @@ const Services = (props) => {
         <div className="services-hero-bg">
           <video
             src="https://videos.pexels.com/video-files/30524226/13076625_640_360_60fps.mp4"
-            loop
-            muted
+            loop="true"
+            muted="true"
             autoPlay="true"
-            playsInline
+            playsInline="true"
             className="services-hero-video"
           ></video>
           <div className="services-hero-overlay"></div>
@@ -71,9 +59,9 @@ const Services = (props) => {
               Your Integrated Trade &amp; Logistics Partner
             </h1>
             <p className="hero-subtitle">
-              Green Hills Limited delivers seamless customs clearance, freight
-              forwarding, and trade consulting. Leverage our 15+ years of
-              expertise to simplify your supply chain from source to
+              Waterside House Corporation delivers seamless customs clearance,
+              freight forwarding, and trade consulting. Leverage our 15+ years
+              of expertise to simplify your supply chain from source to
               destination.
             </p>
             <div className="services-hero-cta-group">
@@ -355,7 +343,7 @@ const Services = (props) => {
         <div className="process-map-container">
           <div className="process-header">
             <h2 className="services-thq-section-title-elm3 section-title">
-              The Green Hills Limited Advantage: Your End-to-End Process
+              The Waterside House Corporation Advantage: Your End-to-End Process
             </h2>
             <p className="services-thq-section-subtitle-elm2 section-subtitle">
               Seamless. Transparent. Reliable. A single point of contact for
@@ -617,7 +605,7 @@ const Services = (props) => {
                 type="text"
                 id="name"
                 name="true"
-                required
+                required="true"
                 placeholder="John Doe"
                 data-form-field-id="name"
               />
@@ -628,7 +616,7 @@ const Services = (props) => {
                 type="email"
                 id="email"
                 name="email"
-                required
+                required="true"
                 placeholder="john@company.com"
                 data-form-field-id="email"
               />
@@ -638,7 +626,7 @@ const Services = (props) => {
               <select
                 id="service"
                 name="service"
-                required
+                required="true"
                 data-form-field-id="service"
               >
                 <option value="true">Select a service...</option>
@@ -652,8 +640,8 @@ const Services = (props) => {
               <textarea
                 id="message"
                 name="message"
-                required
-                minLength="10"
+                required="true"
+                minlength="10"
                 placeholder="Tell us about your trade corridor or logistics challenge..."
                 data-form-field-id="message"
               ></textarea>

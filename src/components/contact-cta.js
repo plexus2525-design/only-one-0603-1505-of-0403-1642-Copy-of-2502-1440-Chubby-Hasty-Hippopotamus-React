@@ -72,7 +72,7 @@ const ContactCta = (props) => {
                 type="text"
                 id="thq_true_hf9d"
                 name="true"
-                required
+                required="true"
                 placeholder={props.contactCtaInputPlaceholder}
                 data-form-field-id="thq_true_hf9d"
                 className="contact-cta-input"
@@ -83,7 +83,7 @@ const ContactCta = (props) => {
                 type="email"
                 id="thq_email_9eXJ"
                 name="email"
-                required
+                required="true"
                 placeholder={props.contactCtaInputPlaceholder1}
                 data-form-field-id="thq_email_9eXJ"
                 className="contact-cta-input"
@@ -93,7 +93,7 @@ const ContactCta = (props) => {
               <textarea
                 id="thq_message_IMQ5"
                 name="message"
-                required
+                required="true"
                 placeholder={props.contactCtaTextareaPlaceholder}
                 data-form-field-id="thq_message_IMQ5"
                 className="contact-cta-textarea"
